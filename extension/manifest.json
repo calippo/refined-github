@@ -6,6 +6,7 @@
 	"manifest_version": 2,
 	"minimum_chrome_version": "49",
 	"permissions": [
+		"https://github.omnilab.our.buildo.io/*",
 		"https://github.com/*",
 		"https://gist.github.com/*",
 		"storage"
@@ -17,6 +18,7 @@
 		{
 			"run_at": "document_start",
 			"matches": [
+				"https://github.omnilab.our.buildo.io/*",
 				"https://github.com/*",
 				"https://gist.github.com/*"
 			],
